@@ -8,11 +8,11 @@ $conn = new mysqli($servername, $username, $password, $dbname);
 
 if ($conn->connect_error)
 {
-    echo "توجد مشكلة في الاتصال: " . $conn->connect_error;
+    echo "ERROR: " . $conn->connect_error;
 }
 else
 {
-echo "تم الاتصال بنجاح";
+echo "Success";
 }
 
 if(isset($_POST['forward'])){
