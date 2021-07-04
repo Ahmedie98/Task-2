@@ -57,6 +57,32 @@ body
 	border-radius: 10px 10px 0px 0px;
 	padding:20px;
 }
+
+
+.Forward{
+height: 50px;
+width:40%;
+text-decoration: none;
+border: #b1deb3 3px solid;
+text-shadow:0px 1px 0px #126956;
+padding: 5px 17px;
+color: #FFFFFF;
+background:  #bbc18a;
+border-radius:15px ;
+font-size: 20px;
+line-height: 1.5em;
+
+}
+.Forward:hover {
+	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
+	background-color:#b1deb3;
+}
+.Forward:active {
+	position:relative;
+top:1px;}
+
+
+
 .Backward{
 text-decoration: none;
 border: #b1deb3 3px solid;
@@ -80,27 +106,6 @@ width:39%;
 	top:0px;
 }
 
-.Forward{
-height: 50px;
-width:40%;
-text-decoration: none;
-border: #b1deb3 3px solid;
-text-shadow:0px 1px 0px #126956;
-padding: 5px 17px;
-color: #FFFFFF;
-background:  #bbc18a;
-border-radius:15px ;
-font-size: 20px;
-line-height: 1.5em;
-
-}
-.Forward:hover {
-	background:linear-gradient(to bottom, #4a9e47 7%, #76c284 100%);
-	background-color:#b1deb3;
-}
-.Forward:active {
-	position:relative;
-top:1px;}
 
 .Right{
 text-decoration: none;
